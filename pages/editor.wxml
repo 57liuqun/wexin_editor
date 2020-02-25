@@ -3,6 +3,7 @@
     <view class="toolbar" catchtouchend="format1" style="bottom: {{isIOS ? keyboardHeight : 0}}px">
       <i class="iconfont icon-charutupian" catchtouchend="insertImage1"></i>
       <i class="iconfont icon-format-header-2 {{formats.header === 2 ? 'ql-active' : ''}}" data-name="header" data-value="{{2}}"></i>
+      
       <i class="iconfont icon-format-header-3 {{formats.header === 3 ? 'ql-active' : ''}}" data-name="header" data-value="{{3}}"></i>
       <i class="iconfont icon-zitijiacu {{formats.bold ? 'ql-active' : ''}}" data-name="bold"></i>
       <i class="iconfont icon-zitixieti {{formats.italic ? 'ql-active' : ''}}" data-name="italic"></i>

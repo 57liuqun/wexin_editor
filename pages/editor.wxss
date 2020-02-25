@@ -1,6 +1,5 @@
 /* pages/editor.wxss */
 @import '../style/iconfont.wxss';
-
   .content_box .content_card {
     width: 95%;
     height: 230rpx;
